@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="የእግዚአብሔር ፍቅር"
+            android:textAllCaps="true"
+            android:textColor="#32DE84"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/n_n_n_4_8_n_8_37_n_3_22_n_n_4_11_n_n_n_22_37_40_n_n_n_n_n_n_15_17_n_n_n_5_1_n_n_1_13_n_1_n_2_n_3_n_4_n_5_n_6_n_7_n_8_n_9_n_10_n_11_n_12_n_13_n"
+            android:textColor="#111010"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity2"
+    tools:openDrawer="start">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="በተዳጋጋሚ የሚነሱ ጥያቄዎች እና መልሶቻቸው"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/baloo" />
+
+            <Button
+                android:id="@+id/xeyake1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የእግዚአብሔር ፍቅር" />
+
+            <Button
+                android:id="@+id/xeyake2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ክርስቶስን በመከተል በሃይማኖት መገለጥ" />
+
+
+            <Button
+                android:id="@+id/xeyake3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የእግዚአብሔር ጦር ዕቃ የሚባሉት ምንድን ናቸው?" />
+
+            <Button
+                android:id="@+id/xeyake4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="በሃይማኖት መቆም፥ በእውነተኛዋ መንገድ መሄድ ምን ማለት ነው?" />
+            <Button
+                android:id="@+id/xeyake5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="መንፈሳዊ ምግባርና ሕይወት ምን ምን ከማድረግ ይነሣል?" />
+            <Button
+                android:id="@+id/xeyake6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የጸሎት ቤት" />
+
+            <Button
+                android:id="@+id/xeyake7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="በክርስትና ዕለት ዕለት እንዴት መኖር እንችላለን?" />
+
+            <Button
+                android:id="@+id/xeyake8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ይህንን ለማድረግ ምን ከማድረግ እንጀምር?" />
+
+            <Button
+                android:id="@+id/xeyake9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የጸሎት ቤት እንዴት እናዘጋጅ?" />
+            <Button
+                android:id="@+id/xeyake10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የጸሎት ቤት እንዴት ይሰናዳል?" />
+
+            <Button
+                android:id="@+id/xeyake11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ስዕለ አድኖዎችን በተመለከተ" />
+
+            <Button
+                android:id="@+id/xeyake12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ስዕለ አድኖዎችን እንዴት እንደርድር?" />
+
+            <Button
+                android:id="@+id/xeyake13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ስዕለ አድኖዎችን ከደረደርን በኋላ ምን ምን እናሟላ?" />
+
+            <Button
+                android:id="@+id/xeyake14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የጸሎት መርሃ ግብርና ሰዓታት" />
+
+            <Button
+                android:id="@+id/xeyake15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ጸሎት" />
+            <Button
+                android:id="@+id/xeyake16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ጸሎት እንዴት እናደርጋለን?" />
+            <Button
+                android:id="@+id/xeyake17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የጸሎት መርሃ ግብርና ሰዓታት" />
+            <Button
+                android:id="@+id/xeyake18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የጸሎት ሰዓታት" />
+            <Button
+                android:id="@+id/xeyake19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ሰባቱ የጸሎት ሰዓታትና የሚጸለዩበት ምክንያቶች" />
+            <Button
+                android:id="@+id/xeyake20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="በሥራና በአስገዳጅ ሁኔታ የተወጠረን ሰዎች ምን እናድርግ?" />
+            <Button
+                android:id="@+id/xeyake21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="በቃል መያዝ ያለባቸው መዝሙረ ዳዊት ጸሎታት" />
+            <Button
+                android:id="@+id/xeyake22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ቃል የሚያዙ መዝሙራት" />
+            <Button
+                android:id="@+id/xeyake23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ምግብ ስንበላ ምን ብለን እንጸልይ?" />
+            <Button
+                android:id="@+id/xeyake24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የተረሳው ትልቁ እና ኃይለኛው ስግደት" />
+            <Button
+                android:id="@+id/xeyake25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እጅግ የዘነጋነው ይህ ስግደት " />
+            <Button
+                android:id="@+id/xeyake26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" የአምልኮት ስግደት ለምን ይሰገዳል" />
+            <Button
+                android:id="@+id/xeyake27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የአምልኮት ስግደት መቼ መቼ ይሰገዳል?" />
+            <Button
+                android:id="@+id/xeyake28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የአምልኮት ስግደት እንዴት ይሰገዳል?" />
+            <Button
+                android:id="@+id/xeyake29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የአምልኮት ስግደት ምን ምን እያልን እንስገድ?" />
+            <Button
+                android:id="@+id/xeyake30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="በደላችንን የምናጥብበት ስግደት" />
+            <Button
+                android:id="@+id/xeyake31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የንሰሐ ስግደት ለምን ይሰገዳል?" />
+            <Button
+                android:id="@+id/xeyake31b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" የንስሐ ስግደት መቼ መቼ ይሰገዳል?" />
+
+            <Button
+                android:id="@+id/xeyake32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የንስሐ ስግድት ምን ምን እያልን እንስገድ? " />
+            <Button
+                android:id="@+id/xeyake33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ኃያሉ የጸጋ ስግደት " />
+            <Button
+                android:id="@+id/xeyake34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የጸጋ ስግደት" />
+            <Button
+            android:id="@+id/xeyake35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="የጸጋ ስግደት ለምን ይሰገዳል " />
+            <Button
+                android:id="@+id/xeyake36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የጸጋ ስግደት መቼ መቼ እንስገድ? " />
+            <Button
+                android:id="@+id/xeyake37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የጸጋን ስግደት ምን ምን እያልን እንስገድ? " />
+            <Button
+                android:id="@+id/xeyake38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የክብር ስግደት " />
+            <Button
+                android:id="@+id/xeyake39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የክብር ስግደት ለምን ይሰገዳል " />
+            <Button
+                android:id="@+id/xeyake40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የክብር ስግደት መቼ መቼ የእንሰግዳለን?" />
+
+            <Button
+                android:id="@+id/xeyake41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ቅዱስ ቁርባን ለመውሰድ ምን ያስፈልጋል?" />
+            <Button
+                android:id="@+id/xeyake42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የቅዱስ ቁርባን 7 ጥቅሞች አራት" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Mezemure_select"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="መዝሙር ይምረጡ"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/baloo" />
+
+
+            <Button
+                android:id="@+id/xeyake1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ተናገሩ" />
+
+
+
+            <Button
+                android:id="@+id/xeyake2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ልኡል እግዚአብሄር" />
+
+            <Button
+                android:id="@+id/xeyake3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እስመ አልብነ ረዳኢ" />
+
+            <Button
+                android:id="@+id/xeyake4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ረድቶኛል እና እግዚአብሔር ይመስገን" />
+
+            <Button
+                android:id="@+id/xeyake5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ስብሐት ለአምላክነ" />
+
+            <Button
+                android:id="@+id/xeyake6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ኵሎ ዘፈቀደ" />
+
+            <Button
+                android:id="@+id/xeyake7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ኦ አባ ቅዱስ ዕቀቦሙ" />
+
+            <Button
+                android:id="@+id/xeyake8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" እግዚአብሔር ብርሃኔና መድኃኒቴ ነው" />
+
+            <Button
+                android:id="@+id/xeyake9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ለዚህ ቀን ላበቃው/ት/" />
+
+            <Button
+                android:id="@+id/xeyake10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="በሰላም ላመጣ" />
+
+            <Button
+                android:id="@+id/xeyake11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="አማን በአማን" />
+            <Button
+                android:id="@+id/xeyake12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ንሴብሖ" />
+            <Button
+                android:id="@+id/xeyake13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ሰላም ለዝክረ ስምከ" />
+            <Button
+                android:id="@+id/xeyake14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="በክንፈ ረድኤትህ" />
+            <Button
+                android:id="@+id/xeyake15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ኃይል የእግዚአብሔር ነው" />
+            <Button
+                android:id="@+id/xeyake16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እንዘይብሉ" />
+            <Button
+                android:id="@+id/xeyake17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ሰላምህን ስጣት" />
+            <Button
+                android:id="@+id/xeyake18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ለጌታዬ ለእግዚአብሔር" />
+            <Button
+                android:id="@+id/xeyake19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እናመስግን አማኑኤልን" />
+            <Button
+                android:id="@+id/xeyake20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እግዚአብሔር ሆይ እርዳኝ" />
+            <Button
+                android:id="@+id/xeyake21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="በኮከብ መፅኡ" />
+            <Button
+                android:id="@+id/xeyake22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ስብሐት ለእግዚአብሔር" />
+            <Button
+                android:id="@+id/xeyake23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ለዘተወልደ እምቅድስት" />
+            <Button
+                android:id="@+id/xeyake24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ወረደ ወልድ" />
+            <Button
+                android:id="@+id/xeyake25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ውስተ ማኅጸነ ድንግል" />
+            <Button
+                android:id="@+id/xeyake26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="የዓለምን በደል" />
+            <Button
+                android:id="@+id/xeyake27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እንዘ ሕፃን" />
+            <Button
+                android:id="@+id/xeyake28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ሆሣዕና እምርት" />
+            <Button
+                android:id="@+id/xeyake29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ሆሣዕና በአርያም" />
+            <Button
+                android:id="@+id/xeyake30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ሞተሃልና ስለእኔ" />
+            <Button
+                android:id="@+id/xeyake31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="አንድ ቀን አለ" />
+            <Button
+                android:id="@+id/xeyake32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እንበለ ምግባር" />
+            <Button
+                android:id="@+id/xeyake33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ለምኝልን ማርያም" />
+            <Button
+                android:id="@+id/xeyake34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እንተ በምድር" />
+            <Button
+                android:id="@+id/xeyake35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ማርያም ድንግል" />
+            <Button
+                android:id="@+id/xeyake36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ማርያም ፊደል ናት" />
+            <Button
+                android:id="@+id/xeyake37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ሶበሰ ኪዳንኪ" />
+            <Button
+            android:id="@+id/xeyake38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="አትለይን" />
+            <Button
+                android:id="@+id/xeyake39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ንጽሕተ ንጹሐን" />
+            <Button
+                android:id="@+id/xeyake40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ኢያቄም ወለዳ" />
+            <Button
+                android:id="@+id/xeyake41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እመቤታችን ማርያም" />
+            <Button
+                android:id="@+id/xeyake42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ለእናታችን ቅድስት" />
+            <Button
+                android:id="@+id/xeyake43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="እመቤታችን" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

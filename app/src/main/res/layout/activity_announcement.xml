@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Announcement"
+    >
+    <include
+     layout="@layout/toolbar"
+        android:id="@+id/appbar"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvmessage"
+        android:layout_width="match_parent"
+        android:layout_height="613dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/back4">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="ጥያቄ ጠይቅ(ማንነቶ ድብቅ ነው)"
+                android:textColor="#000"
+                android:textColorLink="@android:color/holo_blue_dark" />
+
+
+            <ImageButton
+                android:id="@+id/btnsend"
+                android:layout_width="45dp"
+                android:layout_height="47dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="#fff"
+                android:src="@drawable/send" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

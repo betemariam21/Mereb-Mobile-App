@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/navhome"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/Mezeure_xenat"
+            android:icon="@drawable/ic_baseline_music_note_24"
+            android:title="Mezemure" />
+
+        <item
+            android:id="@+id/xeyakemelse"
+            android:icon="@drawable/ans"
+            android:title="Xeyake Xeyeke" />
+
+        <item
+            android:id="@+id/channels"
+            android:icon="@drawable/you"
+            android:title="Youtube channels" />
+    </group>
+
+
+    <item android:title="Information">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/seven"
+                    android:icon="@drawable/ic_baseline_format_list_numbered_24"
+                    android:title="7 times of prayer" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_question_answer_24"
+                    android:title="Ye menefekena xeyakewoch" />
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+            </group>
+        </menu>
+    </item>
+</menu>
